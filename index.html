@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<style>
+   
+
+    #main {
+        margin-top: 20px;
+        display: flex;
+        border: 1px solid rebeccapurple;
+    }
+
+    #main1 {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0px auto;
+        border: 1px solid red;
+        width: 19%;
+        height: 500px;
+    }
+
+    #main2 {
+        margin: auto;
+        border: 1px solid red;
+        width: 79%;
+    }
+
+    #main2>div>img {
+        height: 200px;
+        width: 49%;
+        margin: 0px auto;
+    }
+
+    #card {
+        display: flex;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 31.5%;
+        margin: 0px auto;
+        border: 1px solid blue;
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Faiyyazz's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            </nav>
+
+        </header>
+
+    <section id="main">
+        <h2 id="main1"> Side Bar </h2>
+        <div id="main2">
+            <h2>Main Content</h2>
+            <div>
+                <img src="https://plus.unsplash.com/premium_photo-1676637000058-96549206fe71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <img src="https://plus.unsplash.com/premium_photo-1676637000058-96549206fe71?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+            </div>
+            <div id="card">
+                <div class="card">CARD1</div>
+                <div class="card">CARD2</div>
+                <div class="card">CARD3</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+
+</html>
